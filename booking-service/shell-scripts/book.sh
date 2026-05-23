@@ -1,0 +1,1 @@
+curl -X POST http://localhost:3001/api/bookings/ -H "Content-Type: application/json" -d '{"hotelId": "1", "bookedRooms": 2}'

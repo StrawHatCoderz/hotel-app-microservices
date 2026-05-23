@@ -2,10 +2,8 @@ package service.booking.service;
 
 import org.springframework.beans.factory.annotation.Value;
 import org.springframework.http.HttpStatusCode;
-import org.springframework.http.MediaType;
 import org.springframework.stereotype.Service;
 import org.springframework.web.client.RestClient;
-import service.booking.domain.Hotel;
 import service.booking.view.HotelResponseView;
 import service.booking.view.RoomAvailabilityUpdationView;
 

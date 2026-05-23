@@ -60,6 +60,7 @@ public class BookingService {
     Booking booking = bookingRepo.findBookingByBookingId(bookingId);
 
     if (booking == null) {
+      System.out.println("invalid booking id");
       throw new InvalidBookingIdException();
     }
 

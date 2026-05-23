@@ -38,7 +38,6 @@ export class HotelService {
 		}
 
 		const updatedAvailableRooms = hotel.availableRooms - bookedRooms;
-		console.log(updatedAvailableRooms);
 
 		await this.#hotelRepo.updateAvailableRooms(hotelId, updatedAvailableRooms);
 	}

@@ -60,7 +60,7 @@ public class BookingService {
     Booking booking = bookingRepo.findBookingByBookingId(bookingId);
 
     if (booking == null) {
-      throw new InvalidBookingIdException();
+      throw new InvalidBookingIdException();s
     }
 
     if (!booking.isReceiptGenerated()) {
